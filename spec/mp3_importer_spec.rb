@@ -37,6 +37,6 @@ describe "MP3Importer" do
 
       expect(Song).to receive(:new_by_filename).at_least(4).times
       music_importer.import
-    end
+    end       
   end
 end
